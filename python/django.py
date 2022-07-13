@@ -1,0 +1,2 @@
+def MySite():
+    None
