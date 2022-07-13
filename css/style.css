@@ -188,6 +188,10 @@ body {
   font-weight: bold;
 }
 
+.header-info-left__title:hover {
+  text-decoration: underline;
+}
+
 .header-info-left__text {
   width: 307px;
   height: 31px;
@@ -275,6 +279,13 @@ body {
   line-height: 1;
   letter-spacing: -2.66px;
   font-weight: bold;
+}
+
+.header-info-right__title:hover {
+  -webkit-text-decoration: underline #3157ad;
+          text-decoration: underline #3157ad;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
 }
 
 .header-info-right__text {
