@@ -128,7 +128,16 @@ body{
     display: inline-block;
 
     img{
-      transform: translateX(-5px);
+      transform: translate(-15px, -5px);
+      position: relative;
+      padding: 3px;
+      border-radius: 50%;
+
+      &:hover{
+        transform: translate(-15px, -25px);
+        transition-duration: 0.5s;
+        background-color: $color2;
+      }
     }
 
     p{

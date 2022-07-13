@@ -118,8 +118,19 @@ body {
 }
 
 .header-menu__list img {
-  -webkit-transform: translateX(-5px);
-          transform: translateX(-5px);
+  -webkit-transform: translate(-15px, -5px);
+          transform: translate(-15px, -5px);
+  position: relative;
+  padding: 3px;
+  border-radius: 50%;
+}
+
+.header-menu__list img:hover {
+  -webkit-transform: translate(-15px, -25px);
+          transform: translate(-15px, -25px);
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  background-color: #3157ad;
 }
 
 .header-menu__list p {
