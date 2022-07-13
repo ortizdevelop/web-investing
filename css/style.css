@@ -147,6 +147,8 @@ body {
   border-radius: 8px;
   background-color: #3157ad;
   color: #ede5da;
+  -webkit-box-shadow: 0px 5px 1px #ede5da;
+          box-shadow: 0px 5px 1px #ede5da;
 }
 
 .header-menu__list-btn p {
