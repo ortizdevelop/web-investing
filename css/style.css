@@ -128,6 +128,7 @@ body {
           transform: translate(35px, 35px);
   padding: 6px 9px 5px;
   color: #ede5da;
+  border-radius: 8px;
 }
 
 .header-menu__list p:hover {
@@ -137,6 +138,9 @@ body {
           transform: translate(35px, 30px);
   -webkit-transition-duration: 0.5s;
           transition-duration: 0.5s;
+  background-color: #ede5da;
+  -webkit-box-shadow: 0px 5px 1px #3157ad;
+          box-shadow: 0px 5px 1px #3157ad;
 }
 
 .header-menu__list p:active {

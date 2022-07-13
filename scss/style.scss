@@ -136,12 +136,15 @@ body{
       transform: translate(35px,35px);
       padding: 6px 9px 5px;
       color: $color1;
+      border-radius: 8px;
 
       &:hover{
         position: relative;
         color: $color2;
         transform: translate(35px,30px);
         transition-duration: 0.5s;
+        background-color: $color1;
+        box-shadow: 0px 5px 1px $color2;
       }
 
       &:active{
