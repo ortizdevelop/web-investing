@@ -1,5 +1,6 @@
 @charset "UTF-8";
 /*Обнуление*/
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -7,7 +8,6 @@
 }
 
 *, *:before, *:after {
-  -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
@@ -74,3 +74,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------*/
+body {
+  font-family: 'Karla', sans-serif;
+  width: 2183px;
+  height: 10957px;
+  background-color: #ede5da;
+}

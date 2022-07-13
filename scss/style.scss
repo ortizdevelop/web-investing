@@ -74,3 +74,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+$color1: #ede5da;
+$color2: #3157ad;
+$color3: #000000;
+
+body{
+  font-family: 'Karla', sans-serif;
+  width: 2183px;
+  height: 10957px;
+  background-color: $color1;
+}
