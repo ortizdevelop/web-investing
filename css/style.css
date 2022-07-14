@@ -368,7 +368,6 @@ body {
 }
 
 .content-main {
-  border: 1px solid blue;
   -webkit-transform: translateY(-600px);
           transform: translateY(-600px);
 }
@@ -477,4 +476,154 @@ body {
   position: relative;
   -webkit-transform: translate(700px, -80px);
           transform: translate(700px, -80px);
+}
+
+.content-main .content-main-trial {
+  margin-top: 190px;
+  margin-left: 428px;
+}
+
+.content-main .content-main-trial .content-main-trial-left {
+  width: 650px;
+}
+
+.content-main .content-main-trial .content-main-trial-left__titles {
+  margin-bottom: 34px;
+  font-size: 66px;
+  font-weight: bold;
+  width: 630px;
+}
+
+.content-main .content-main-trial .content-main-trial-left__titles p {
+  width: 449px;
+  height: 87px;
+  margin-bottom: 34px;
+  border-radius: 8px;
+  position: relative;
+  z-index: 5;
+}
+
+.content-main .content-main-trial .content-main-trial-left__titles p:hover {
+  background-color: #3157ad;
+  color: #ede5da;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.content-main .content-main-trial .content-main-trial-left__titles p:hover span {
+  color: #ede5da;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.content-main .content-main-trial .content-main-trial-left__titles span {
+  color: #3157ad;
+}
+
+.content-main .content-main-trial .content-main-trial-left__titles .char2 {
+  -webkit-transform: translateX(220px);
+          transform: translateX(220px);
+  width: 410px;
+}
+
+.content-main .content-main-trial .content-main-trial-left__text {
+  width: 650px;
+  margin-bottom: 46px;
+  position: relative;
+  z-index: 5;
+}
+
+.content-main .content-main-trial .content-main-trial-left__text img {
+  margin-bottom: 14px;
+  margin-right: 156px;
+}
+
+.content-main .content-main-trial .content-main-trial-left__text p {
+  font-size: 14px;
+  width: 179px;
+  height: 60px;
+  text-align: center;
+  display: inline-block;
+  margin-right: 27px;
+  -webkit-transform: translate(-60px, 0px);
+          transform: translate(-60px, 0px);
+  border-radius: 8px;
+}
+
+.content-main .content-main-trial .content-main-trial-left__text p:hover {
+  background-color: #3157ad;
+  color: #ede5da;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.content-main .content-main-trial .content-main-trial-left__text .txt1 {
+  margin-left: 10px;
+}
+
+.content-main .content-main-trial .content-main-trial-left__btn {
+  width: 161px;
+  height: 40px;
+  padding-top: 10px;
+  text-align: center;
+  border-radius: 8px;
+  background-color: #3157ad;
+  font-size: 19px;
+  margin-bottom: 140px;
+  margin-left: 155px;
+  position: relative;
+  z-index: 5;
+}
+
+.content-main .content-main-trial .content-main-trial-left__btn span {
+  color: #ede5da;
+}
+
+.content-main .content-main-trial .content-main-trial-left__btn:hover {
+  -webkit-box-shadow: 0 5px 1px #000000;
+          box-shadow: 0 5px 1px #000000;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.content-main .content-main-trial .content-main-trial-left__btn:active {
+  position: relative;
+  top: 3px;
+  -webkit-box-shadow: 0 2px 1px #000000;
+          box-shadow: 0 2px 1px #000000;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.content-main .content-main-trial .content-main-trial-right {
+  width: 500px;
+  height: 640px;
+  -webkit-transform: translate(730px, -500px);
+          transform: translate(730px, -500px);
+}
+
+.content-main .content-main-trial .content-main-trial-right__img-woman {
+  position: relative;
+  z-index: 4;
+  -webkit-transform: translateX(73px);
+          transform: translateX(73px);
+}
+
+.content-main .content-main-trial .content-main-trial-right__img-phone {
+  position: relative;
+  z-index: 3;
+  -webkit-transform: translateY(-33px);
+          transform: translateY(-33px);
+}
+
+.content-main .content-main-trial .content-main-trial-right__img-shadow {
+  position: relative;
+  z-index: 2;
+  -webkit-transform: translate(30px, -60px);
+          transform: translate(30px, -60px);
+}
+
+.content-main .content-main-trial .content-main-trial-right__img-bg {
+  -webkit-transform: translate(-850px, -2550px);
+          transform: translate(-850px, -2550px);
 }
