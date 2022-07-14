@@ -90,6 +90,8 @@ body {
   width: 1775px;
   height: 925px;
   background-image: url("/img/header/bg.png");
+  position: relative;
+  z-index: 1;
 }
 
 .header .header-menu__row {
