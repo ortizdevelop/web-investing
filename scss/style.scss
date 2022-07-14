@@ -349,3 +349,68 @@ body{
     }
   }
 }
+
+.content-main {
+  border: 1px solid blue;
+  transform: translateY(-600px);
+
+  &__row {
+  }
+
+.container {
+}
+.content-main-info {
+
+  &__titles {
+  }
+
+  &__text {
+  }
+
+  &__img {
+  }
+}
+.content-main-info-image {
+
+  &__shadow {
+  }
+}
+.content-main-trial {
+}
+.content-main-trial-left {
+
+  &__titles {
+  }
+
+  &__text {
+  }
+
+  &__text-img {
+  }
+
+  &__text-img1 {
+  }
+
+  &__text-img2 {
+  }
+
+  &__btn {
+  }
+}
+.content-main-trial-right {
+
+  &__img {
+  }
+
+  &__img-woman {
+  }
+
+  &__img-phone {
+  }
+
+  &__img-shadow {
+  }
+}
+.content-main-about {
+}
+}
