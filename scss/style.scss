@@ -361,6 +361,8 @@ body{
   background-color: $color3;
   color: $color1;
   margin-left: 205px;
+  position: relative;
+  z-index: 1;
 
   &__titles {
     font-size: 66.5px;

@@ -380,6 +380,8 @@ body {
   background-color: #000000;
   color: #ede5da;
   margin-left: 205px;
+  position: relative;
+  z-index: 1;
 }
 
 .content-main .content-main-info__titles {
