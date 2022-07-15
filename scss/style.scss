@@ -718,15 +718,45 @@ body{
 .content-bottom {
 
   &__row {
+    border: 1px solid palevioletred;
+    transform: translateY(-972px);
   }
 
   &__classes {
   }
 
   &__classes-title {
+    border:  1px solid blue;
+    text-align: center;
+
+    h2{
+      color: $color2;
+      font-size: 29.5px;
+      line-height: 1.36;
+      letter-spacing: -1.18px;
+      font-weight: bold;
+      margin-bottom: 22px;
+    }
+
+    h3{
+      color: $color3;
+      font-size: 66.5px;
+      line-height: 1.36;
+      letter-spacing: -1.18px;
+      font-weight: bold;
+      margin-bottom: 35px;
+    }
+
+    p{
+      font-size: 14px;
+      width: 338px;
+      height: 31px;
+      margin-left: 830px;
+    }
   }
 
   &__classes-lists {
+    
   }
 
   &__about {
@@ -742,6 +772,8 @@ body{
   .class-list-left {
   }
   .classes {
+    margin-top: 132px;
+    margin-left: 410px;
   }
   .classes-left-img {
   }
@@ -752,6 +784,8 @@ body{
   .classes-left-link {
   }
   .class-list-right {
+    margin-left: 670px;
+    transform: translateY(-1380px);
   }
   .classes-right-img {
   }

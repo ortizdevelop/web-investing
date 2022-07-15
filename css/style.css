@@ -722,3 +722,50 @@ body {
   -webkit-transform: translate(-60px, -103px);
           transform: translate(-60px, -103px);
 }
+
+.content-bottom__row {
+  border: 1px solid palevioletred;
+  -webkit-transform: translateY(-972px);
+          transform: translateY(-972px);
+}
+
+.content-bottom__classes-title {
+  border: 1px solid blue;
+  text-align: center;
+}
+
+.content-bottom__classes-title h2 {
+  color: #3157ad;
+  font-size: 29.5px;
+  line-height: 1.36;
+  letter-spacing: -1.18px;
+  font-weight: bold;
+  margin-bottom: 22px;
+}
+
+.content-bottom__classes-title h3 {
+  color: #000000;
+  font-size: 66.5px;
+  line-height: 1.36;
+  letter-spacing: -1.18px;
+  font-weight: bold;
+  margin-bottom: 35px;
+}
+
+.content-bottom__classes-title p {
+  font-size: 14px;
+  width: 338px;
+  height: 31px;
+  margin-left: 830px;
+}
+
+.content-bottom .classes {
+  margin-top: 132px;
+  margin-left: 410px;
+}
+
+.content-bottom .class-list-right {
+  margin-left: 670px;
+  -webkit-transform: translateY(-1380px);
+          transform: translateY(-1380px);
+}
