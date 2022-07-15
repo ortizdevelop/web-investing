@@ -721,8 +721,6 @@ body{
     transform: translateY(-972px);
   }
 
-  &__classes {
-  }
 
   &__classes-title {
     text-align: center;
@@ -762,12 +760,6 @@ body{
   &__join {
   }
 
-  .container {
-  }
-  .class-list {
-  }
-  .class-list-left {
-  }
   .classes {
     margin-top: 132px;
     // margin-left: 410px;
@@ -877,4 +869,86 @@ body{
       letter-spacing: -0.76px;
     }
   }
+  .content-bottom {
+
+		&__about {
+		}
+
+		&__about-title {
+		}
+
+		&__about-title-text {
+		}
+
+		&__about-title-left {
+		}
+
+		&__about-title-img {
+		}
+
+		&__about-title-right {
+		}
+
+		&__about-us {
+		}
+
+		&__about-us-left {
+		}
+
+		&__about-us-image {
+		}
+
+		&__about-us-arrows {
+		}
+}
+.about-title-left {
+
+		&__top-text {
+		}
+
+		&__bottom-text {
+		}
+}
+.about-title-img {
+
+		&__phone {
+		}
+
+		&__shadow {
+		}
+
+		&__arrow-don {
+		}
+}
+.about-title-right {
+
+		&__top-text {
+		}
+
+		&__bottom-text {
+		}
+}
+.about-us-left {
+
+		&__top-text {
+		}
+
+		&__bottom-text {
+		}
+}
+.about-us-image {
+
+		&__photo {
+		}
+}
+.about-us-arrows {
+
+		&__arrow-left {
+		}
+
+		&__arrow-right {
+		}
+}
+
+
 }
