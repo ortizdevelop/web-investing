@@ -261,6 +261,8 @@ body{
   }
   .header-info-img {
     transform: translateY(-330px);
+    position: relative;
+    z-index: 1;
 
     &__image1 {
       margin-left: 718px;

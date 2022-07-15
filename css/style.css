@@ -275,6 +275,8 @@ body {
 .header .header-info-img {
   -webkit-transform: translateY(-330px);
           transform: translateY(-330px);
+  position: relative;
+  z-index: 1;
 }
 
 .header .header-info-img__image1 {
