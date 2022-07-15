@@ -718,7 +718,6 @@ body{
 .content-bottom {
 
   &__row {
-    border: 1px solid palevioletred;
     transform: translateY(-972px);
   }
 
@@ -726,7 +725,6 @@ body{
   }
 
   &__classes-title {
-    border:  1px solid blue;
     text-align: center;
 
     h2{
@@ -756,7 +754,6 @@ body{
   }
 
   &__classes-lists {
-    
   }
 
   &__about {
@@ -773,26 +770,111 @@ body{
   }
   .classes {
     margin-top: 132px;
-    margin-left: 410px;
+    // margin-left: 410px;
+    transform: translateX(410px);
   }
-  .classes-left-img {
+
+  .classes-text{
+    font-size: 14px;
+    width: 200px;
+    height: 31px;
+    color: $color1;
+    transform: translate(250px, -200px);
   }
+
+  .list-classes-link {
+    transform: translate(250px, -150px);
+    width: 211px;
+    height: 45px;
+  }
+  
+  .link{
+    
+    &:hover{
+      position: relative;
+      bottom: 3px;
+      background-color: $color3;
+      box-shadow: 0px 5px 1px $color1;
+      transition-duration: 0.5s;
+      
+      span{
+        color: $color1;
+        transition-duration: 0.5s;
+      }
+    }
+
+    &:active{
+      position: relative;
+      top: 3px;
+      box-shadow: 0px 2px 1px $color1;
+    }
+  }
+
   .classes-left-title {
-  }
-  .classes-left-text {
+    width: 200px;
+    height: 67px;
+    font-size: 29.5px;
+    font-weight: bold;
+    line-height: 1.25;
+    letter-spacing: -1.18px;
+    color: $color1;
+    transform: translate(250px, -220px);
   }
   .classes-left-link {
+    padding: 15px 36px;
+    background-color: $color4;
+    border-radius: 8px;
+    opacity: 0.9;
+
+    span{
+      font-size: 19px;
+      color: $color2;
+      opacity: 0.9;
+      line-height: 1.34;
+      letter-spacing: -0.76px;
+    }
   }
   .class-list-right {
-    margin-left: 670px;
-    transform: translateY(-1380px);
+    margin-left: 1370px;
+    transform: translate(-700px, -1685px);
+    width: 1px;
+    height: 1px;
   }
-  .classes-right-img {
-  }
+
   .classes-right-title {
+    width: 195px;
+    height: 67px;
+    line-height: 1.25;
+    font-size: 29.5px;
+    font-weight: bold;
+    letter-spacing: -1.18px;
+    color: $color1;
+    transform: translate(250px, -220px);
   }
-  .classes-right-text {
+  
+  .classes-right-title-last{
+    width: 210px;
+    height: 67px;
+    line-height: 1.25;
+    font-size: 29.5px;
+    font-weight: bold;
+    letter-spacing: -1.18px;
+    color: $color1;
+    transform: translate(250px, -220px);
   }
+
   .classes-right-link {
+    padding: 15px 36px;
+    background-color: $color4;
+    border-radius: 8px;
+    opacity: 0.9;
+
+    span{
+      font-size: 19px;
+      color: $color2;
+      opacity: 0.9;
+      line-height: 1.34;
+      letter-spacing: -0.76px;
+    }
   }
 }
