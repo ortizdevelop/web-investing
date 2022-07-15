@@ -621,7 +621,7 @@ body{
   width: 1550px;
   height: 847px;
   background-color: $color3;
-  transform: translate(200px, -509px);
+  transform: translate(198px, -509px);
   color: $color1;
   &__row {
     
@@ -735,12 +735,22 @@ body{
     }
 
     h3{
+      width: 910px;
+      height: 90px;
       color: $color3;
       font-size: 66.5px;
       line-height: 1.36;
       letter-spacing: -1.18px;
       font-weight: bold;
       margin-bottom: 35px;
+      transform: translateX(555px);
+      border-radius: 8px;
+
+      &:hover{
+        color: $color1;
+        background-color: $color2;
+        transition-duration: 0.5s;
+      }
     }
 
     p{
@@ -865,14 +875,13 @@ body{
 
 		&__about {
       position: relative;
-      border: 1px solid orangered;
       transform: translateY(-100px);
       background-color: $color3;
       z-index: 1;
 		}
 
 		&__about-title {
-      border: 1px solid blue;
+  
 		}
 
 		&__about-title-text {
@@ -883,8 +892,8 @@ body{
       letter-spacing: -2.66px;
       font-weight: bold;
       color: $color1;
+      transform: translateY(30px);
       
-
       span{
         color: $color2;
         border-radius: 8px;
@@ -919,12 +928,35 @@ body{
 		}
 
 		&__about-us-left {
+      width: 506px;
+      margin-left: 260px;
+      transform: translateY(-400px);
+
+      h4{
+        width: 431px;
+        height: 126px;
+        font-size: 66.5px;
+        letter-spacing: -2.66px;
+        margin-bottom: 92px;
+        font-weight: bold;
+        border-radius: 8px;
+
+        &:hover{
+          background-color: $color2;
+          color: $color1;
+          transition-duration: 0.3s;
+        }
+      }
 		}
 
 		&__about-us-image {
+      height: 490px;
+      
 		}
 
 		&__about-us-arrows {
+      width: 75px;
+      transform: translate(265px, -800px);
 		}
 }
 .about-title-left {
@@ -991,14 +1023,33 @@ body{
 .about-us-left {
 
 		&__top-text {
+      margin-bottom: 31px;
+      width: 344px;
+      font-weight: bold;
+      font-size: 29.5px;
+      line-height: 1.36;
+      letter-spacing: -1.18px;
+      color: $color2;
+
+      &:hover{
+        background-color: $color2;
+        color: $color1;
+        transition-duration: 0.3s;
+      }
 		}
 
 		&__bottom-text {
+      font-size: 16px;
+      text-align: justify;
+      color: $color3;
 		}
 }
 .about-us-image {
 
 		&__photo {
+      border: 1px solid blue;
+      margin-left: 1019px;
+      transform: translateY(-825px);
 		}
 
     &__bg-white{
@@ -1006,12 +1057,12 @@ body{
       z-index: -1;
       width: 2990px;
       height: 940px;
-      transform: translate(-500px, -1480px);
+      transform: translate(-500px, -1680px);
     }
 }
 .about-us-arrows {
-
 		&__arrow-left {
+      margin-right: 20px;
 		}
 
 		&__arrow-right {
