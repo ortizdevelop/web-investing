@@ -751,14 +751,6 @@ body{
     }
   }
 
-  &__classes-lists {
-  }
-
-  &__about {
-  }
-
-  &__join {
-  }
 
   .classes {
     margin-top: 132px;
@@ -872,24 +864,58 @@ body{
   .content-bottom {
 
 		&__about {
+      position: relative;
+      border: 1px solid orangered;
+      transform: translateY(-100px);
+      background-color: $color3;
+      z-index: 1;
 		}
 
 		&__about-title {
+      border: 1px solid blue;
 		}
 
 		&__about-title-text {
+      margin-top: 29px;
+      text-align: center;
+      font-size: 66.5px;
+      line-height: 0.23;
+      letter-spacing: -2.66px;
+      font-weight: bold;
+      color: $color1;
+      
+
+      span{
+        color: $color2;
+        border-radius: 8px;
+      }
+
+      &:hover{
+        span{
+          padding: 0.1px 16px;
+          color: $color1;
+          background-color: $color2;
+          transition-duration: 0.3s;
+        }
+      }
 		}
 
 		&__about-title-left {
+      margin-top: 112px;
+      color: $color1;
 		}
 
 		&__about-title-img {
 		}
 
 		&__about-title-right {
+      color: $color1;
 		}
 
 		&__about-us {
+      position: relative;
+      background-color: $color1;
+      z-index: 2;
 		}
 
 		&__about-us-left {
@@ -902,30 +928,64 @@ body{
 		}
 }
 .about-title-left {
+  
 
 		&__top-text {
+      font-size: 66.5px;
+      font-weight: bold;
+      line-height: 1;
+      letter-spacing: -2.66px;
+      margin-bottom: 28px;
+      transform: translateX(400px);
 		}
 
 		&__bottom-text {
+      font-size: 14px;
+      width: 282px;
+      height: 48px;
+      line-height: 1.35;
+      transform: translateX(400px);
 		}
 }
 .about-title-img {
 
 		&__phone {
+      position: relative;
+      margin-left: 870px;
+      margin-bottom: 300px;
+      transform: translateY(-160px);
+      z-index: 4;
 		}
 
 		&__shadow {
+      position: relative;
+      transform: translate(-290px, 305px);
+      z-index: 3;
 		}
 
-		&__arrow-don {
+		&__arrow-down {
+      position: relative;
+      transform: translate(-455px, 390px);
+      z-index: 3;
 		}
 }
 .about-title-right {
 
 		&__top-text {
+      font-size: 66.5px;
+      font-weight: bold;
+      line-height: 1;
+      letter-spacing: -2.66px;
+      margin-bottom: 28px;
+      transform: translate(1350px, -950px);
 		}
 
 		&__bottom-text {
+      font-size: 14px;
+      width: 282px;
+      height: 48px;
+      line-height: 1.35;
+      transform: translate(1350px, -950px);
 		}
 }
 .about-us-left {
@@ -940,6 +1000,14 @@ body{
 
 		&__photo {
 		}
+
+    &__bg-white{
+      position: relative;
+      z-index: -1;
+      width: 2990px;
+      height: 940px;
+      transform: translate(-500px, -1480px);
+    }
 }
 .about-us-arrows {
 
@@ -949,6 +1017,5 @@ body{
 		&__arrow-right {
 		}
 }
-
 
 }
