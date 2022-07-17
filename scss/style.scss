@@ -91,7 +91,7 @@ body{
 
 
 .container{
-  border: 1px solid orangered;
+  border: 1px solid   red;
 }
 
 .header{
@@ -1113,3 +1113,88 @@ body{
 
 
 }
+
+.footer {
+
+  &__row {
+  }
+
+  &__investment {
+  }
+
+  &__investment-row {
+  }
+
+  &__investment-title {
+  }
+
+  &__investment-lists {
+  }
+
+  &__about-us {
+  }
+
+  &__about-us-row {
+  }
+
+  &__about-us-title {
+  }
+
+  &__join {
+  }
+
+  &__join-row {
+  }
+
+  &__join-title {
+  }
+
+  &__join-mail {
+  }
+
+  &__join-link {
+  }
+
+  &__author {
+  }
+
+  &__author-row {
+  }
+
+  &__author-text {
+  }
+
+  &__media {
+  }
+
+  &__media-row{
+  }
+
+  &__media-lists {
+  }
+
+
+}
+.container {
+}
+.investment-list {
+}
+.about-lists {
+}
+.about-list {
+}
+.media-list {
+}
+.media-img1 {
+  
+  color: $color2;
+}
+.media-img2 {
+  
+  color: $color2;
+}
+.media-img3 {
+  
+  color: $color2;
+}
+

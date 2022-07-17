@@ -83,7 +83,7 @@ body {
 }
 
 .container {
-  border: 1px solid orangered;
+  border: 1px solid   red;
 }
 
 .header .header-menu {
@@ -1072,4 +1072,16 @@ body {
 
 .content-bottom .about-us-arrows__arrow-left {
   margin-right: 20px;
+}
+
+.media-img1 {
+  color: #3157ad;
+}
+
+.media-img2 {
+  color: #3157ad;
+}
+
+.media-img3 {
+  color: #3157ad;
 }
