@@ -1310,6 +1310,56 @@ body {
   font-size: 19px;
   line-height: 0.79;
   font-weight: bold;
+  color: #ede5da;
+  background-color: #3157ad;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.footer__author-github {
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 5px;
+  background-color: #3157ad;
+  -webkit-box-shadow: 0px 4.5px 1px #000000;
+          box-shadow: 0px 4.5px 1px #000000;
+}
+
+.footer__author-github span {
+  color: #ede5da;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.footer__author-github:hover {
+  position: relative;
+  background-color: #000000;
+  -webkit-box-shadow: 0px 8px 1px #3157ad;
+          box-shadow: 0px 8px 1px #3157ad;
+  -webkit-transition-duration: 0.35s;
+          transition-duration: 0.35s;
+}
+
+.footer__author-github:hover span {
+  -webkit-transition-duration: 0.35s;
+          transition-duration: 0.35s;
+}
+
+.footer__author-github:hover:active {
+  position: relative;
+  top: 3px;
+  -webkit-box-shadow: 0px 3px 1px #3157ad;
+          box-shadow: 0px 3px 1px #3157ad;
+  -webkit-transition-duration: 0.35s;
+          transition-duration: 0.35s;
 }
 
 .footer__media-lists li {
